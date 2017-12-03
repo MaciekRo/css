@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: green;
+    height: 500px;
+}
+
+.container p {
+    margin: 0;
+}
+
+
+
+.red{
+    background-color: red;
+      position: relative;
+    /*
+    left: 60px;
+    top: 30px; */
+}
+
+.blue{
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+    
+}
+/*pozycja obsolutna nie zostawia zarezerwowanego miejsca (inne elementy zajma miejsce) odsuwa sie od elementu (najpierw szuka rodzica) ktory jest pozycjonowany relatywnie. Jezeli nie ma takiego to ustawia sie wzgledem body kiedy mzieniamy pozycje na absolute lub fixed musimy pamietac o rozciagnieciu elemntu */
+
+.red{
+    position: fixed;
+    top: 0;
+    
+    
+}
+.grey{
+    background-color: grey;
+    
+}
